@@ -71,23 +71,28 @@ This project implements an **Automated Guided Vehicle (AGV)** equipped with inte
 bash:
 git clone https://github.com/GOKULKRISHNAN2044/Automated-Guided-Vehicle-AGV-for-Intelligent-Navigation.git
 cd Automated-Guided-Vehicle-AGV-for-Intelligent-Navigation
+
 ###2️⃣ Set Up Virtual Environment:
 bash
 Copy
 Edit
 python -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
+
 ###3️⃣ Install Dependencies:
 bash
 Copy
 Edit
 pip install -r requirements.txt
+
 ###4️⃣ ROS Installation (If using ROS)
 Install ROS Noetic (Ubuntu 20.04) or ROS2 Foxy (for modern applications).
 Set up the workspace and build the AGV navigation package.
+
 ###5️⃣ Hardware Setup
 Connect the motors, sensors, and camera according to the circuit diagram.
 Power up the AGV and ensure all connections are secure.
+
 ###6️⃣ Run the Application
 bash
 Copy
